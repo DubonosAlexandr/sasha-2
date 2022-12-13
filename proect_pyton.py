@@ -57,7 +57,7 @@ class Ball:
         self.canvas = canvas
         self.paddle = paddle
         self.score = score
-        self.id = canvas.create_oval(20, 20, 25, 25, fill=color)
+        self.id = canvas.create_oval(10, 10, 25, 25, fill=color)
         self.canvas.move(self.id, 245, 100)
         starts = [-2, -1, 1, 2]
         random.shuffle(starts)
